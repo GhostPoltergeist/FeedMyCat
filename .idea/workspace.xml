@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fontLoader/fontloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fontLoader/FontLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.38337183&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\fonts" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FeedMyCat" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="feed.cat.main.Main" />
@@ -77,11 +76,23 @@
       <workItem from="1691321090319" duration="382000" />
       <workItem from="1691321548868" duration="442000" />
       <workItem from="1691322034553" duration="217000" />
+      <workItem from="1691323116830" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
