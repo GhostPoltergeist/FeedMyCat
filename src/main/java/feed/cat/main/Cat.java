@@ -1,30 +1,40 @@
 package feed.cat.main;
 
-import com.formdev.flatlaf.*;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.net.URL;
+
+import static fontLoader.FontLoader.jetBrainsMono;
+import static fontLoader.FontLoader.loadFonts;
 
 public class Cat extends JFrame implements KeyListener {
-    JFrame frame;
     JButton buttonOne;
     public Cat() {
-        buttonOne = new JButton("Feed");
+        loadFonts();
+
+        URL homeButton = getClass().getClassLoader().getResource("home.gif");
+        ImageIcon icon = new ImageIcon(new ImageIcon(homeButton).getImage().getScaledInstance(200,200, Image.SCALE_DEFAULT));
+
+        buttonOne = new JButton(icon);
         buttonOne.setEnabled(true);
         buttonOne.setVisible(true);
         buttonOne.addKeyListener(this);
-        buttonOne.setBounds(0,0, 100,100);
+        buttonOne.setOpaque(false);
+        buttonOne.setContentAreaFilled(false);
+        buttonOne.setBorderPainted(false);
+        buttonOne.setFont(jetBrainsMono.deriveFont(12f));
+        buttonOne.setEnabled(true);
+        buttonOne.setBounds(320,0, 200,200);
 
-        frame = new JFrame();
-        frame.setSize(500, 800);
-        frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocationRelativeTo(null);
-        frame.setResizable(false);
-        frame.setLayout(null);
-        frame.add(buttonOne);
+        setSize(500, 800);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setResizable(false);
+        setLayout(null);
+        add(buttonOne);
     }
 
     @Override
