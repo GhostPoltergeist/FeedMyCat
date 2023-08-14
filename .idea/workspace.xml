@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="icn, Look and Feel setup">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/GIF's/home.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/feed/cat/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Main.java" afterDir="false" />
@@ -86,7 +85,9 @@
       <workItem from="1691418836367" duration="47000" />
       <workItem from="1691418979683" duration="85000" />
       <workItem from="1691419084362" duration="108000" />
-      <workItem from="1691419240325" duration="946000" />
+      <workItem from="1691419240325" duration="1289000" />
+      <workItem from="1691476565207" duration="7000" />
+      <workItem from="1691915118341" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;fonts, and fontloader.&quot;">
       <created>1691323326894</created>
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691323764294</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="icn, Look and Feel setup">
+      <created>1691420985263</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691420985263</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
