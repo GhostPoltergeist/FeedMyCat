@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MainCircle extends JPanel {
+    public MainCircle() {
+        setOpaque(false); // Make the JPanel's background transparent
+    }
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

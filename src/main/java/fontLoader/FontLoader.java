@@ -4,7 +4,7 @@ import java.awt.*;
 import java.io.InputStream;
 
 public class FontLoader {
-    public static Font jetBrainsMono, pressStart, quantico, electrolize, babelStones, agdasimaBold, agdasimaRegular, freeFonts = null;
+    public static Font jetBrainsMono, pressStart, quantico, electrolize, babelStones, agdasimaBold, agdasimaRegular, aleo = null;
 
     public static void loadFonts() {
         try {
@@ -28,6 +28,9 @@ public class FontLoader {
 
             InputStream streamSeven = FontLoader.class.getResourceAsStream("/fonts/Agdasima-Regular.ttf");
             agdasimaRegular = Font.createFont(Font.TRUETYPE_FONT, streamSeven).deriveFont(15f);
+
+            InputStream streamEight = FontLoader.class.getResourceAsStream("/fonts/Aleo-VariableFont_wght.ttf");
+            aleo = Font.createFont(Font.TRUETYPE_FONT, streamEight).deriveFont(15f);
 
         } catch (Exception e) {
             e.printStackTrace();
