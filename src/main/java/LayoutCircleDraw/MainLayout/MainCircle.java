@@ -1,4 +1,4 @@
-package LayoutCircleDraw;
+package LayoutCircleDraw.MainLayout;
 
 import javax.swing.*;
 import java.awt.*;

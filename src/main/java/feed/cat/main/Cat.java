@@ -1,18 +1,22 @@
 package feed.cat.main;
 
-import LayoutCircleDraw.MainCircle;
+import ConfigurationPack.About;
+import LayoutCircleDraw.MainLayout.MainCircle;
+import com.formdev.flatlaf.FlatLightLaf;
 
 import javax.swing.*;
+import javax.swing.table.TableRowSorter;
 import java.awt.*;
+import java.awt.event.*;
 
 import static fontLoader.FontLoader.aleo;
 import static fontLoader.FontLoader.loadFonts;
 
-public class Cat extends JFrame {
+public class Cat extends JFrame implements ActionListener {
 
     JPanel shadow, mainSideBar;
     JLabel title;
-    JButton start, save, setting, about;
+    public static JButton start, save, setting, about;
 
     public Cat() {
         loadFonts();
@@ -48,6 +52,7 @@ public class Cat extends JFrame {
         about.setBounds(100, 400, 150, 50);
         about.setEnabled(true);
         about.setVisible(true);
+        about.addActionListener(this);
 
         title = new JLabel("Feed My Cat");
         title.setFont(aleo.deriveFont(32f));
@@ -78,6 +83,7 @@ public class Cat extends JFrame {
         getRootPane().putClientProperty("JRootPane.titleBarForeground", Color.white);
         getRootPane().getContentPane().setBackground(new Color(0x9C25D3));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
 
         add(title);
         add(shadow);
@@ -87,5 +93,23 @@ public class Cat extends JFrame {
         add(save);
         add(setting);
         add(about);
+
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == about) {
+            about.setEnabled(false); // Disable the button before opening the About frame
+
+            SwingUtilities.invokeLater(() -> {
+                About aboutFrame = new About();
+                aboutFrame.addWindowListener(new WindowAdapter() {
+                    @Override
+                    public void windowClosed(WindowEvent e) {
+                        about.setEnabled(true); // Enable the button after the About frame is closed
+                    }
+                });
+            });
+        }
+        // End of Statement
     }
 }
