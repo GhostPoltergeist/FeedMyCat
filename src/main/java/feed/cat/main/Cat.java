@@ -1,9 +1,11 @@
 package feed.cat.main;
 
 import ConfigurationPack.About;
+import ConfigurationPack.Setting;
 import LayoutCircleDraw.MainLayout.MainCircle;
 import com.formdev.flatlaf.FlatLightLaf;
 
+import javax.sound.midi.Sequence;
 import javax.swing.*;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
@@ -44,6 +46,7 @@ public class Cat extends JFrame implements ActionListener {
         setting.setBounds(100, 330, 150, 50);
         setting.setEnabled(true);
         setting.setVisible(true);
+        setting.addActionListener(this);
 
         about = new JButton("About");
         about.setForeground(Color.WHITE);
@@ -99,6 +102,10 @@ public class Cat extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == about) {
             about.setEnabled(false); // Disable the button before opening the About frame
+            save.setEnabled(false);
+            setting.setEnabled(false);
+            start.setEnabled(false);
+
 
             SwingUtilities.invokeLater(() -> {
                 About aboutFrame = new About();
@@ -106,6 +113,30 @@ public class Cat extends JFrame implements ActionListener {
                     @Override
                     public void windowClosed(WindowEvent e) {
                         about.setEnabled(true); // Enable the button after the About frame is closed
+                        setting.setEnabled(true);
+                        start.setEnabled(true);
+                        save.setEnabled(true);
+                    }
+                });
+            });
+        }
+        // End of Statement
+        if (e.getSource() == setting) {
+            about.setEnabled(false); // Disable the button before opening the About frame
+            save.setEnabled(false);
+            setting.setEnabled(false);
+            start.setEnabled(false);
+
+
+            SwingUtilities.invokeLater(() -> {
+                Setting aboutFrame = new Setting();
+                aboutFrame.addWindowListener(new WindowAdapter() {
+                    @Override
+                    public void windowClosed(WindowEvent e) {
+                        about.setEnabled(true); // Enable the button after the About frame is closed
+                        setting.setEnabled(true);
+                        start.setEnabled(true);
+                        save.setEnabled(true);
                     }
                 });
             });

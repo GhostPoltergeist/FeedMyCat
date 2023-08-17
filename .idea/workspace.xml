@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="LICENSE.txt, Author, README.md">
+    <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="updated UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigurationPack/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigurationPack/About.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LayoutCircleDraw/MainLayout/ConfigLayout/FirstDivider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LayoutCircleDraw/MainLayout/ConfigLayout/FirstDivider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigurationPack/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigurationPack/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,8 @@
       <workItem from="1692241675918" duration="1321000" />
       <workItem from="1692243097728" duration="519000" />
       <workItem from="1692243695957" duration="4308000" />
-      <workItem from="1692272005330" duration="1367000" />
+      <workItem from="1692272005330" duration="1491000" />
+      <workItem from="1692283201815" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;fonts, and fontloader.&quot;">
       <created>1691323326894</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692247871555</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated UI">
+      <created>1692273448275</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692273448275</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +227,7 @@
     <MESSAGE value="new best design" />
     <MESSAGE value="dividers, panels and new jframes added. " />
     <MESSAGE value="LICENSE.txt, Author, README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="LICENSE.txt, Author, README.md" />
+    <MESSAGE value="updated UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated UI" />
   </component>
 </project>
