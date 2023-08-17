@@ -1,6 +1,7 @@
 package ConfigurationPack;
 
 import LayoutCircleDraw.MainLayout.ConfigLayout.FirstDivider;
+import LayoutCircleDraw.MainLayout.MainCircle;
 
 import javax.swing.*;
 import java.awt.*;
@@ -57,8 +58,9 @@ public class About extends JFrame {
         add(description);
 
 
-        // Adding Divider
+        // Adding Divider and Circles
         add(dividerHor);
+
     }
 
 }
