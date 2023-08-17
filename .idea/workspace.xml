@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="new best design">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConfigurationPack/About.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConfigurationPack/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LayoutCircleDraw/MainLayout/ConfigLayout/FirstDivider.java" afterDir="false" />
+    <list default="true" id="7bb4b848-9963-4131-8bfa-1d04373c6821" name="Changes" comment="dividers, panels and new jframes added. 😇🙂">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Author" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LayoutCircleDraw/MainCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LayoutCircleDraw/MainLayout/MainCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feed/cat/main/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,32 +34,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ghost/IdeaProjects/FeedMyCat/src/main/resources/fonts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38337183&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/Ghost/IdeaProjects/FeedMyCat/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.38337183",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\java" />
       <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\fonts" />
       <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\GIF's" />
       <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\java\feed\cat\main" />
       <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\GIF's" />
       <recent name="C:\Users\Ghost\IdeaProjects\FeedMyCat\src\main\resources\images" />
     </key>
@@ -108,7 +108,7 @@
       <workItem from="1692241445942" duration="177000" />
       <workItem from="1692241675918" duration="1321000" />
       <workItem from="1692243097728" duration="519000" />
-      <workItem from="1692243695957" duration="3479000" />
+      <workItem from="1692243695957" duration="4128000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;fonts, and fontloader.&quot;">
       <created>1691323326894</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692101168209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dividers, panels and new jframes added. 😇🙂">
+      <created>1692247320723</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692247320723</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,7 @@
     <MESSAGE value="adding new  {designs and buttons}‍️" />
     <MESSAGE value="changing layout, design and startup" />
     <MESSAGE value="new best design" />
-    <option name="LAST_COMMIT_MESSAGE" value="new best design" />
+    <MESSAGE value="dividers, panels and new jframes added. " />
+    <option name="LAST_COMMIT_MESSAGE" value="dividers, panels and new jframes added. " />
   </component>
 </project>
