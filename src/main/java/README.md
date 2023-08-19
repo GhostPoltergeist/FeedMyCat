@@ -1,6 +1,6 @@
 # Feed My Cat 
 
-Welcome to **My Desktop Buddy**, a Java-based desktop game inspired by My Talking Tom and Pou. This game brings the charm of virtual pet simulation to your desktop environment.
+Welcome to **Feed My Cat**, a Java-based desktop game inspired by My Talking Tom and Pou. This game brings the charm of virtual pet simulation to your desktop environment.
 
 ## Features
 
